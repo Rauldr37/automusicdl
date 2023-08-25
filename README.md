@@ -19,7 +19,7 @@ In short:
 4. Type the song name.
 5. The program will show 3 results. You can select one typing its number.
     1. If it's not enough, you can type 'more', to show 3 more.
-    2. If you have seen 9 results, and still you haven't found the correct song, you'll be given the option to add a result manualy, or leave the program.
+    2. If you have seen 9 results, and still you haven't found the correct song, you'll be given the option to add a result manually, or leave the program.
 6. Once the link is selected, yt-dlp will start downloading the song.
 7. When the sound has been downloaded, the program will rename it to the **artist** and **song name** given, using the format `Artist name - Song name.mp3`, so please, type it correctly from the start ;-).
 8. The program will move the renamed file to the subfolder Music, where all songs are stored.
