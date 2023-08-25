@@ -27,3 +27,4 @@ In short:
 
 ---
 Hope the script helps! Consider starring it.
+Raúl Durán.
