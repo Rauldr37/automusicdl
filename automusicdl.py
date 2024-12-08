@@ -136,7 +136,7 @@ if __name__ == '__main__':
                     break
 
             # Calls yt-dlp using subprocess, to download the song from YouTube
-            subprocess.run(f"resources\yt-dlp.exe \"{song_link}\" -x --audio-format mp3 --audio-quality 0 -R 5 --fragment-retries 5", shell = True, check=True)
+            subprocess.run(f"resources\\yt-dlp.exe \"{song_link}\" -x --audio-format mp3 --audio-quality 0 -R 5 --fragment-retries 5", shell = True, check=True)
 
             # Renames the file to the correct format, and places it in a spare folder.
             rename_and_replace_file(song, artist)
