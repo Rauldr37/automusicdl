@@ -81,6 +81,11 @@ def search_song_link(song_name, artist_name):
 
     link = "https://youtube.com" + str(results[index]['url_suffix'].split("&pp")[0])
 
+    # Remove `list` statement from link.
+    if '&list' in link:
+        link = link.split('&list')[0]
+        print(link)
+
     return link
 
 def rename_and_replace_file(song_name, artist_name):
