@@ -84,7 +84,6 @@ def search_song_link(song_name, artist_name):
     # Remove `list` statement from link.
     if '&list' in link:
         link = link.split('&list')[0]
-        print(link)
 
     return link
 
